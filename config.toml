@@ -1,0 +1,40 @@
+baseURL = 'https://hattshire.dev/'
+languageCode = 'en-us'
+title = 'Hattshire'
+theme = "blist"
+
+enableRobotsTXT = true
+timeZone = 'UTC'
+
+[languages]
+[languages.en]
+  languageName = "English"
+  weight = 1
+[languages.es]
+  languageName = "Español"
+  weight = 2
+
+
+[params]
+  darkModeToggle = true
+  ascentColor = "bg-green-100 text-pink-500"
+  copyright = "NoopyRight © 2021 - Oliver Hattshire | All your code are belong to US"
+
+[params.homepage]
+  title = "Pick-a-boo! Hattshire is here TOO!"
+  description = "I'm a not-so-'lil leanly boi that enjoys keyboards and soldering irons alike."
+  photo = "./me.jpg"
+
+[params.homepage.social]
+  title = "Follow me!"
+  description = "U know U want it uwu"
+  github = "https://github.com/hattshire"
+  linkedin = "https://linkedin.com/in/s30s/"
+  reddit = "https://reddit.com/SeriousAd4"
+
+[[menu.main]]
+  name = "Works"
+  url = "/works/"
+[[menu.main]]
+  name = "About"
+  url = "/about"
