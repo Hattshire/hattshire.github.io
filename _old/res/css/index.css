@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    background: lightgrey;
+}
+header nav {
+    display: none;
+}
+header img {
+    position:absolute;
+    right: 50%;
+    margin-right: -13%;
+    width: 26%;
+    top: 50%;
+    margin-top:-13%;
+}
